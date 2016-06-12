@@ -1,0 +1,99 @@
+{
+  "locations":[
+    {
+      "name": "Allston",
+      "latitude": "42.3539038",
+      "longitude":"-71.1337112"
+    },
+    {
+      "name": "Back Bay",
+      "latitude": "42.3493204",
+      "longitude":"-71.0993026"
+    },
+    {
+      "name": "Brighton",
+      "latitude": "42.3452521",
+      "longitude":"-71.2187069"
+    },
+    {
+      "name": "Brookline",
+      "latitude": "42.3233095",
+      "longitude":"-71.2123865"
+    },
+    {
+      "name": "Cambridge",
+      "latitude": "42.3784958",
+      "longitude":"-71.1829497"
+    },
+    {
+      "name": "Dorchester",
+      "latitude": "42.3018056",
+      "longitude":"-71.0913155"
+    },
+    {
+      "name": "East Boston",
+      "latitude": "42.373166",
+      "longitude":"-71.0862845"
+    },
+    {
+      "name": "Financial District",
+      "latitude":"42.3601831",
+      "longitude":"-71.0591661"
+    },
+    {
+      "name": "Fenway",
+      "latitude": "42.3426456",
+      "longitude":"-71.1317649"
+    },
+    {
+      "name": "Hyde Park",
+      "latitude": "42.2540067",
+      "longitude":"-71.1570649"
+    },
+    {
+      "name": "Jamaica Plain",
+      "latitude": "42.3139056",
+      "longitude":"-71.1538434"
+    },
+    {
+      "name": "Mattapan",
+      "latitude": "42.2806561",
+      "longitude":"-71.1234143"
+    },
+    {
+      "name": "Newton",
+      "latitude": "42.3255415",
+      "longitude":"-71.3537624"
+    },
+    {
+      "name": "North End",
+      "latitude": "42.3647024",
+      "longitude":"-71.0542339"
+    },
+    {
+      "name": "Roslindale",
+      "latitude": "42.2796977",
+      "longitude":"-71.1923201"
+    },
+    {
+      "name": "Somerville",
+      "latitude": "42.3956475",
+      "longitude":"-71.173788"
+    },
+    {
+      "name": "South Boston",
+      "latitude": "42.3382638",
+      "longitude":"-71.1072867"
+    },
+    {
+      "name": "South End",
+      "latitude": "42.3396636",
+      "longitude":"-71.1108159"
+    },
+    {
+      "name": "West Roxbury",
+      "latitude": "42.2797554",
+      "longitude":"-71.1626756"
+    }
+  ]
+}
