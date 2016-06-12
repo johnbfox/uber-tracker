@@ -1,8 +1,6 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "name": "Uber Price Tracker",
+  "description": "Script that grabs real time price data from Uber API",
+  "repository": "https://github.com/johnbfox/uber-tracker",
+  "keywords": ["Uber", "node", "price"],
 }

@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "Uber Price Tracker",
+  "version": "0.1.0",
+  "description": "A NodeJS script that gathers real time uber price data",
   "engines": {
     "node": "5.9.1"
   },
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/johnbfox/uber-tracker"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "uber",
+    "price",
+    "node"
   ],
   "license": "MIT"
 }
