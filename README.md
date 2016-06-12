@@ -1,39 +1,61 @@
-# node-js-getting-started
+# Uber Price Tracker
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Uber price data provides interesting insight into the effects of supply and demand
+on the cost of taking an uber.  This application will allow a user to compile real
+time price data into a csv file or SQLite Database.
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+## Prerequisites
 
-## Running Locally
+### Node Installation
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+To run this script, you will need to have nodeJS installed on your machine. Go
+to the [NodeJS website](https://nodejs.org) and follow the instructions specific
+to your machine.
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+### Uber API Access
+
+You will need to create an Uber developer account, and register an app to gain
+API Access.  You can do both from the [Uber developer website](https://developer.uber.com/).
+
+After registering your app, ensure that grab the Server Token. This will be
+necessary to run the application.
+
+## Setup
+
+### Uber Server Token
+
+To access the uber api, you will need to add your uber server token to the app. To do so,
+open config.json and add your token next to the 'serverToken' property.
+
+### Configure Locations
+
+The application allows the user to specify which locations the user would like to
+get price data for.  They can do so by modifying the locations.json file.  The file
+is templated with Boston neighborhoods, but you can swap the information in the file
+out with locations of your choice. You can get the latitude and longitude of your
+desired locations via Google Maps.
+
+The end destination is also configurable.  You can modify the destination in the
+config.json file.
+
+## Running the application
+
+Now that the setup is complete, you will be able to run the application.  Open
+your terminal/command prompt and navigate to the root of the application.  Run
+npm install to add necessary dependencies first.
+
+```bash
+npm install
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+To gather your data in csv format, run
 
-## Deploying to Heroku
-
+```bash
+node index.js
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+
+If you prefer your data stored in a sqlite database, run
+
+```bash
+node index.js sqlite
 ```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
